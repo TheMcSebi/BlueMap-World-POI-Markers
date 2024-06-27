@@ -11,6 +11,7 @@ Simple python script to convert a cubiomes csv export to BlueMap markers to gene
 5. Open the `config/maps/overworld.conf` file and scroll to the bottom
 6. Replace the empty brackets (`{}`) with the copied text
 7. Run `java -jar BlueMap-<version>.jar -r` to update your map and add the markers
+8. Download the cubiomes-viewer github repository and copy the pngs from `rc/icons/` to your BlueMap `web/assets/` folder.
 
 By default, the script generates markers for the following structures:
 - stronghold
@@ -37,7 +38,8 @@ Be warned though, adding too many markers will significantly decrease the webui'
 4. Hit the analyze button (which is surprisingly quick)
 5. Export... to the directory you put the script in and name it "cubiomes-export.csv"
 
+<img width="803" alt="image" src="https://github.com/TheMcSebi/BlueMap-World-POI-Markers/assets/1323131/1651b2b1-3f31-467a-bf08-af1570b22e1a">
 
+## BlueMap Screenshot
 
-## Screenshot
-
+<img width="960" alt="image" src="https://github.com/TheMcSebi/BlueMap-World-POI-Markers/assets/1323131/82679d4a-2135-4c52-ae48-a48282e1133d">
