@@ -3,6 +3,8 @@
 Simple python script to convert a cubiomes csv export to BlueMap markers to generate POIs for structures like strongholds, mansions, monuments, villages or pyramids.
 
 ## Usage
+In order to get the markers on your map, you need to export the pois using cubiomes-viewer, run the python script, copy the markers to your BlueMap config and copy the icon images. To achieve this, follow the steps below.
+The python script does not need any third-party libraries.
 
 1. Use [cubiomes-viewer](https://github.com/Cubitect/cubiomes-viewer/releases) to find all structures for your world seed, for reference see the screenshot and instructions below.
 2. Export all POIs as csv and save the file as "cubiomes-export.csv" in the directory you saved the script in
